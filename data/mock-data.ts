@@ -1,0 +1,48 @@
+import { Course, SchoolType } from '@/types/index';
+
+export const MOCK_COURSES: Course[] = [
+  {
+    id: 'c1',
+    title: 'UI/UX Design Fundamentals',
+    school: SchoolType.DESIGN,
+    instructor: 'Ayo Williams',
+    description: 'Learn the core principles of user interface and user experience design.',
+    syllabus: ['Introduction to UX', 'Wireframing', 'Prototyping in Figma', 'User Testing'],
+    duration: '8 weeks',
+    level: 'Beginner',
+    thumbnail: '/ui_ux.jpg',
+  },
+  {
+    id: 'c2',
+    title: 'Advanced AI & Machine Learning',
+    school: SchoolType.DEEPTECH,
+    instructor: 'Dr. Sarah Chen',
+    description: 'Deep dive into neural networks and predictive modeling.',
+    syllabus: ['Linear Regression', 'Neural Networks', 'Natural Language Processing'],
+    duration: '12 weeks',
+    level: 'Advanced',
+    thumbnail: '/ai_ml.jpg',
+  },
+  {
+    id: 'c3',
+    title: 'IoT & Embedded Systems',
+    school: SchoolType.ROBOTICS,
+    instructor: 'Engr. David Okafor',
+    description: 'Hands-on training for connecting the physical and digital worlds.',
+    syllabus: ['Arduino Basics', 'Sensor Integration', 'Cloud Connectivity'],
+    duration: '10 weeks',
+    level: 'Intermediate',
+    thumbnail: '/robotics.jpg',
+  },
+  {
+    id: 'c4',
+    title: 'Gig Economy Masterclass',
+    school: SchoolType.VIRTUAL_ECONOMY,
+    instructor: 'Grace Adebayo',
+    description: 'Scale your freelancing business and master e-lancing.',
+    syllabus: ['Platform Strategy', 'Client Management', 'Portfolio Building'],
+    duration: '6 weeks',
+    level: 'Beginner',
+    thumbnail: '/gig_economy.jpg',
+  },
+];
