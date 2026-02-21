@@ -24,7 +24,6 @@ export interface AssignmentSubmission {
 }
 
 export interface QAItem {
-  [x: string]: string;
   id: string;
   student: string;
   question: string;
