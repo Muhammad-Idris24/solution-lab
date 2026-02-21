@@ -1,10 +1,10 @@
 import next from "eslint-config-next";
 
 export default [
-  ...next(),
+  next,
   {
     rules: {
-      "@next/next/no-img-element": "off"
+      "@next/next/no-img-element": "off",
     }
   }
 ];

@@ -128,7 +128,7 @@ export default function HomePage() {
                   <Megaphone className="h-4 w-4 text-white" />
                 </span>
                 <span className="text-sm font-semibold uppercase tracking-wider text-[#7fe1d6]">
-                  Breaking News
+                  What's New
                 </span>
               </div>
               
