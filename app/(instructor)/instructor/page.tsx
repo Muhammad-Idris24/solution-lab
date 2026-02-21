@@ -2,14 +2,12 @@
 
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import toast from 'react-hot-toast';
 import { 
   BarChart3, Megaphone, MessageSquareText, Users, 
-  BookOpen, Clock, Award, Star, TrendingUp, Target,
-  ChevronRight, Play, Settings, LogOut, Calendar,
-  CheckCircle, AlertCircle, PlusCircle, Filter,
-  MoreHorizontal, Edit, Trash2, Eye, Download
+  BookOpen, Clock, Award, TrendingUp,  ChevronRight, 
+  Play, Settings, LogOut, Calendar, PlusCircle, Filter,
+  MoreHorizontal, Edit, Eye
 } from 'lucide-react';
 import { RoleShell } from '@/components/layout/role-shell';
 import { AnalyticsMiniChart } from '@/components/instructor/analytics-mini-chart';

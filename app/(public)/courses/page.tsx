@@ -3,8 +3,8 @@
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { 
-  Search, Clock, Users, Star, Filter, Grid3x3, 
-  List, ChevronDown, BookOpen, Award, ArrowRight,
+  Search, Clock, Users, Star, Grid3x3, 
+  List, BookOpen, ArrowRight,
   SlidersHorizontal, X
 } from 'lucide-react';
 import { MOCK_COURSES } from '@/data/mock-data';

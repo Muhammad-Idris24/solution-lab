@@ -2,13 +2,11 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { 
   Home, Users, Compass, TrendingUp, Bookmark, 
-  MessageCircle, Heart, Share2, MoreHorizontal, 
-  Search, Plus, ChevronRight, Award, Flame,
-  Clock, ThumbsUp, MessageSquare, Eye, UserPlus,
-  Hash, Globe, Lock, Sparkles, Bell
+  MessageCircle, Share2, MoreHorizontal, 
+  Search, Plus, Award, Flame,
+  ThumbsUp, MessageSquare, Eye, Bell
 } from 'lucide-react';
 
 export default function ForumPage() {

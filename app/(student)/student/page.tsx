@@ -2,15 +2,11 @@
 
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import toast from 'react-hot-toast';
 import { 
-  CalendarDays, Medal, Trophy, BookOpen, Clock, 
-  ChevronRight, Award, TrendingUp, Users, Target,
-  Play, FileText, CheckCircle, Star, BarChart3,
-  MessageSquare, Bell, Settings, LogOut, Sparkles,
-  Bookmark, GraduationCap, Layers, PenTool, Camera,
-  Edit2, MoreHorizontal
+  CalendarDays,  Trophy, BookOpen, ChevronRight, 
+  Award, TrendingUp, Users, Target, Play,  
+  CheckCircle, Settings, LogOut, Edit2
 } from 'lucide-react';
 import { RoleShell } from '@/components/layout/role-shell';
 import { DashboardSection } from '@/components/student/dashboard-section';

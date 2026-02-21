@@ -4,12 +4,11 @@ import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import toast from 'react-hot-toast';
 import { 
-  Search, Settings, ShieldCheck, Users, BookOpen,
-  AlertTriangle, Calendar, Download, Filter, MoreHorizontal,
-  CheckCircle, XCircle, Clock, Eye, UserCheck, UserX,
+  Search, Settings, ShieldCheck, Users,
+  AlertTriangle, Calendar, Download, MoreHorizontal,
+  CheckCircle, XCircle, Clock, Eye, UserCheck,
   TrendingUp, BarChart3, Globe, Mail, Award, Bell,
-  LogOut, ChevronRight, PlusCircle, Edit, Trash2,
-  DollarSign, Activity, Camera
+  LogOut, ChevronRight, PlusCircle, Activity,
 } from 'lucide-react';
 import { RoleShell } from '@/components/layout/role-shell';
 import { AdminMiniChart } from '@/components/admin/admin-mini-chart';

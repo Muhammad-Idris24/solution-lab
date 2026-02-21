@@ -5,11 +5,9 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import toast from 'react-hot-toast';
 import { 
-  ArrowLeft, Camera, Mail, School, User as UserIcon, 
-  BookOpen, Calendar, Award, MapPin, Globe, Github,
-  Twitter, Linkedin, Save, X, Edit2,
-  Settings,
-  ChevronRight
+  ArrowLeft, Camera, Mail, User as UserIcon, 
+  Calendar, MapPin, Globe, Github, Twitter, 
+  Linkedin, Save, X, Edit2, Settings, ChevronRight
 } from 'lucide-react';
 import { RoleShell } from '@/components/layout/role-shell';
 import { STUDENT_DASHBOARD_DATA } from '@/data/student-dashboard';

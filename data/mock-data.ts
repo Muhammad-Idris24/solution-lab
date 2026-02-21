@@ -11,6 +11,7 @@ export const MOCK_COURSES: Course[] = [
     duration: '8 weeks',
     level: 'Beginner',
     thumbnail: '/ui_ux.jpg',
+    students: 10
   },
   {
     id: 'c2',
@@ -22,6 +23,7 @@ export const MOCK_COURSES: Course[] = [
     duration: '12 weeks',
     level: 'Advanced',
     thumbnail: '/ai_ml.jpg',
+    students: 8
   },
   {
     id: 'c3',
@@ -33,6 +35,7 @@ export const MOCK_COURSES: Course[] = [
     duration: '10 weeks',
     level: 'Intermediate',
     thumbnail: '/robotics.jpg',
+    students: 15
   },
   {
     id: 'c4',
@@ -44,5 +47,6 @@ export const MOCK_COURSES: Course[] = [
     duration: '6 weeks',
     level: 'Beginner',
     thumbnail: '/gig_economy.jpg',
+    students: 20
   },
 ];

@@ -1,19 +1,15 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import toast from 'react-hot-toast';
 import { 
   ArrowLeft, Camera, Mail, Shield, User as UserIcon, 
-  Calendar, Award, MapPin, Globe, Github,
-  Twitter, Linkedin, Save, X, Edit2, Building,
-  Phone, Clock, Key, Bell, Lock, ShieldCheck,
-  Users, Activity, ChevronRight, Download,
-  AlertTriangle, CheckCircle, Server, Database
+  Calendar, Award, MapPin, Globe, Github,Twitter, Linkedin, 
+  Save, X, Edit2, Phone, Bell, Lock, ShieldCheck,
+  Users, Activity, ChevronRight, Download, Server, Database
 } from 'lucide-react';
 import { RoleShell } from '@/components/layout/role-shell';
-import { ProgressBar } from '@/components/student/progress-bar';
 
 // Mock admin data
 const ADMIN_DATA = {
