@@ -1,3 +1,10 @@
-import nextVitals from 'eslint-config-next/core-web-vitals';
+import next from "eslint-config-next";
 
-export default [...nextVitals];
+export default [
+  ...next(),
+  {
+    rules: {
+      "@next/next/no-img-element": "off"
+    }
+  }
+];
