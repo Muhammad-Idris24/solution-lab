@@ -55,12 +55,12 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ i
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent" />
         </div>
         
-        {/* Navigation */}
-        <div className="absolute left-0 right-0 top-0 z-10 p-6">
+        {/* Navigation - Fixed z-index and positioning */}
+        <div className="absolute left-0 right-0 top-0 z-20 p-6">
           <div className="mx-auto max-w-7xl">
             <Link 
               href="/courses" 
-              className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-medium text-white backdrop-blur-sm transition-all hover:bg-white/20"
+              className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-medium text-white backdrop-blur-sm transition-all hover:bg-white/20 cursor-pointer relative z-30"
             >
               <ArrowLeft className="h-4 w-4" />
               Back to Courses
@@ -68,7 +68,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ i
           </div>
         </div>
 
-        {/* Course Title Overlay */}
+        {/* Course Title Overlay - Lower z-index than navigation */}
         <div className="absolute bottom-0 left-0 right-0 z-10 p-6 md:p-12">
           <div className="mx-auto max-w-7xl">
             <div className="flex flex-wrap items-center gap-3 text-sm text-white/80">
@@ -342,6 +342,9 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ i
           </div>
         </div>
       </div>
+
+      {/* Optional: Add a small invisible element to ensure z-index works */}
+      <div className="relative z-0" />
     </div>
   );
 }
